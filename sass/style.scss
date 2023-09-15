@@ -635,7 +635,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	position: relative;
 	.col-half,
 	.col-half-image-holder{
-		width: 50%;
+		width: 80%;
 		float: left;
 	}
 	.col-half-image-holder{
@@ -810,19 +810,19 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .project-content{
 	width: 100%;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 3em;
+	padding-right: 3em;
 	float: left;
 	padding-bottom: 20px;
 	.col-half{
 		width: 50%;
 		float: left;
-		padding-left: 10px;
-		padding-right: 10px;
+		padding-left: 3em;
+		padding-right: 3em;
 		@media screen and(max-width: $screen-xs){
 			width: 100%;
-			padding-left: 1px;
-			padding-right: 1px;		
+			padding-left: 1em;
+			padding-right: 1em;		
 		}
 		.project,.project-grid{
 			background-size: cover;
