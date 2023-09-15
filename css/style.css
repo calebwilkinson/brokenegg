@@ -737,7 +737,7 @@ h2 {
 }
 
 .project-grid {
-  background-size: cover;
+  
   background-position: top center;
   background-repeat: no-repeat;
   position: relative;
@@ -745,19 +745,7 @@ h2 {
   height: 350px;
   margin-bottom: 10px;
 }
-.project-grid:before {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  content: '';
-  background: rgba(0, 0, 0, 0.3);
-  opacity: 0;
-  -webkit-transition: 0.1s;
-  -o-transition: 0.1s;
-  transition: 0.1s;
-}
+
 .project-grid .desc {
   background: rgba(12, 156, 238, 0.9);
   padding: 10px 20px;
@@ -783,12 +771,8 @@ h2 {
     bottom: 0;
   }
 }
-.project-grid:hover:before, .project-grid:focus:before {
-  opacity: 1;
-}
-.project-grid:hover .desc, .project-grid:focus .desc {
-  bottom: 0;
-}
+
+
 
 .project-content {
   width: 100%;
@@ -816,25 +800,9 @@ h2 {
   position: relative;
   overflow: hidden;
 }
-.project-content .col-half .project:before, .project-content .col-half .project-grid:before {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  content: '';
-  background: rgba(0, 0, 0, 0.3);
-  opacity: 0;
-  -webkit-transition: 0.1s;
-  -o-transition: 0.1s;
-  transition: 0.1s;
-}
-.project-content .col-half .project:hover:before, .project-content .col-half .project:focus:before, .project-content .col-half .project-grid:hover:before, .project-content .col-half .project-grid:focus:before {
-  opacity: 1;
-}
-.project-content .col-half .project:hover .desc, .project-content .col-half .project:focus .desc, .project-content .col-half .project-grid:hover .desc, .project-content .col-half .project-grid:focus .desc {
-  bottom: 0;
-}
+
+
+
 @media screen and (max-width: 480px) {
   .project-content .col-half .project, .project-content .col-half .project-grid {
     
