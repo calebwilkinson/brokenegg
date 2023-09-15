@@ -792,8 +792,7 @@ h2 {
 
 .project-content {
   width: 100%;
-  padding-left: 3em;
-  padding-right: 3em;
+
 
   
   /**float:right;-->*/
@@ -1449,9 +1448,7 @@ h2 {
   background: url(../images/loader.gif) center no-repeat #fff;
 }
 
-.js .animate-box {
-  opacity: 0;
-}
+
 
 #fh5co-header-subscribe #email {
   padding-right: 9em;
